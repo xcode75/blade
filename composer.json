@@ -1,5 +1,5 @@
 {
-    "name": "jenssegers/blade",
+    "name": "xcode75/blade",
     "description": "The standalone version of Laravel's Blade templating engine for use outside of Laravel.",
     "keywords": ["laravel", "blade", "template", "view", "render"],
     "license" : "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.4",
         "illuminate/view": "^5.5|^6.0|^7.0|^8.0"
     },
     "require-dev": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenssegers\\Blade\\": "src/"
+            "Xcode75\\Blade\\": "src/"
         }
     },
     "minimum-stability": "dev",
